@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+
+body{
+  font-family: arial, sans-serif; /*fonte sem serifa*/
+  background-image: url(../imagens/fundo1.jpg);
+  color:rgba(0,0,0,3);
+  } 
+p{
+  background: transparent;
+  font-weight: bold;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+
+		}
+
+.header h3, .header h4{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  color: #f2fffc;
+  font-weight: bolder;
+}
+h5#titulo-h5{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-size: 11pt;
+  color: #e74c3c;
+  font-weight: bold;
+}
+.header{
+  background-image: url(../imagens/fundo2.jpg);
+  
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 3px solid #000000; 
+}
+.header img#foto{
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+.navbar-header button{
+      color: #fff;
+    }
+
+#list2 a:hover { 
+    background-color: #ff0000;
+}    
+/*menu principal
+li { 
+    border-right:1px solid #bbb;
+
+}
+li:last-child {
+    border-right: none;
+}*/
+/*section#carousel-banner{
+	position: relative;
+	display: block;
+	bottom: 21.5px;
+}*/
+ul#list{
+  padding: 0px 20px;
+}
+.fullscreen{ /*ocupa tela intera do banner*/
+	width: 100%;
+}
+
+span{
+  color: #ff0000;
+}
+span#titulo{
+  color: #1e90ff;
+}
+legend h2{
+  font-weight: bolder;
+  color: #fff;
+}
+.post {
+  width: auto;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 1em ;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 10px;
+}
+
+.post-single {
+  width: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #eae7dc;
+  color: #333;
+  font-size: 1.2em;
+  line-height: 2em;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 18px;
+  border-radius: 19px;
+}
+.post-single h2 {
+  font-size: 1.8em;
+  padding: 1em 0;
+  font-weight: bolder;
+}
+.post-single h3 {
+  font-size: 1.5em;
+  padding: 1em 0;
+  font-weight: bolder;
+}
+
+
+.post-single .post-header {
+  width: 100%;
+  padding: 1em 0;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+}
+.post-single .post-header .post-header-title {
+  width: 100%;
+  font-size: 2em;
+  color: #e74c3c;
+  padding: 0.8em 0;
+  font-weight: bolder;
+}
+.post-single .post-header .post-header-subtitle {
+  width: 100%;
+  font-size: 1em;
+  margin-top: -1em;
+}
+
+
+/*rodapé*/
+span#rodape{
+font-size: 1.6em;
+font-weight: bold;
+}
+.rodape-span{
+  color: #fff;
+}
+span#rodape{
+  color: #000;
+} 
+footer{ /*área de baixo do site(rodapé)*/
+  clear: both;
+    background-color: rgba(146,119,199,0.4);
+    padding: 10px;
+    text-align: center; 
+}
+h4#rodape-h4{
+  text-align: center;
+  color: #000000;
+  font-weight: bolder;
+  font-family: Arial, sans-serif;
+}

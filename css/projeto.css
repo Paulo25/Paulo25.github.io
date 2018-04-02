@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+
+
+main{
+	margin-top: 50px;
+	margin-bottom: 128px;
+}
+body{
+	font-family: arial, sans-serif; /*fonte sem serifa*/
+	background-image: url(../imagens/fundo1.jpg);
+	color:rgba(0,0,0,3);
+	}		
+
+ h1{
+	color: #000;
+	
+}
+
+ h3{
+	
+	color: #000;
+}
+
+h5,
+
+p{
+	text-align: justify;
+	background: transparent;
+  font-size: 100%;
+  vertical-align: baseline;
+  color: #000;
+}
+
+.header h3, .header h4{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	color: #f2fffc;
+	font-weight: bold;
+	font-size: 16.5pt;
+}
+h5#titulo-h5{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	font-size: 11pt;
+	color: #e74c3c;
+	font-weight: bold;
+}
+.header{
+	background-image: url(../imagens/fundo2.jpg);
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 3px solid #000000; 
+}
+.header img#foto{
+	border-radius: 50%;
+	border: 1px solid #000000;
+}
+
+.navbar-header button{
+			color: #fff;
+		}
+
+#list2 a:hover { 
+    background-color: #ff0000;
+}
+
+
+.fullscreen{ /*ocupa conteiner intera do banner*/
+	width: 100%;
+}
+div#carousel{
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+.thumbnail{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.post-single {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #333;
+  font-size: 1.2em;
+  padding: 10px;
+  line-height: 2em;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 18px;
+  border-radius: 19px;
+}
+.tab-pane{
+			padding: 10px 5px;
+		}
+
+
+
+/*menu principal
+li { 
+    border-right:1px solid #bbb;
+
+}
+li:last-child {
+    border-right: none;
+}*/
+ul#list{
+	padding: 0px 20px;
+}
+#btn-voltar{
+	position:absolute;
+	align-self: flex-end;
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	background-color: #e74c3c;
+	border: 0;
+	border-bottom: 4px solid #c53b2d;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 0px;
+	left: 80%;
+}
+
+
+span#form{
+  color: #ff0000;
+}
+span#aviso{
+  color: #ff0000;
+}
+span#titulo{
+  color: #1e90ff;
+}
+legend h2{
+  font-weight: bolder;
+  color: #fff;
+}
+.post {
+  width: auto;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 1em ;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 10px;
+}
+
+.zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in;  
+}     
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+-ms-transform: scale(1.5);    
+-moz-transform: scale(1.5);  
+-webkit-transform: scale(1.5);  
+-o-transform: scale(1.5);  
+transform: scale(1.5);    
+position:relative;      
+z-index:50;  
+}
+
+h5#rodape-h5{
+	text-align: center;
+}
+span#rodape{
+font-size: 1.6em;
+font-weight: bold;
+}
+/*rodapé*/
+footer{ /*área de baixo do site(rodapé)*/
+	clear: both;
+    background-color: rgba(146,119,199,0.4);
+    padding: 10px;
+    text-align: center;	
+}
+h4#rodape-h4{
+	text-align: center;
+	color: #000000;
+	font-weight: bolder;
+	font-family: Arial, sans-serif;
+}
+

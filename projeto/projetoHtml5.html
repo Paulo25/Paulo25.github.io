@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfólio</title>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="../imagens/img_title.png"/>
+    <link rel="stylesheet" href="../cssB/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/projeto.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script language="javascript" src="../js/funcoes.js" ></script>
+
+<body>
+<header>
+    
+        <nav class="navbar navbar-inverse"> <!--inverte a cor para preto-->
+            <div class="navbar-header">
+        <a href="../index.html" class="navbar-brand">PORTFÓLIO</a> <!--classe de marca do site-->
+        <button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse">Menu</button> <!--ixibe algo escondi-->
+        </div>
+        <div class="collapse navbar-collapse"> <!--collapse esconde elementos-->
+            <ul class="nav navbar-nav"> <!--coloca os elementos em lista-->
+                <li><a href="../sobre.php">Sobre mim</a></li>
+                <li><a href="../cursos.html">Cursos</a></li>
+                <li><a href="../livros.html">Livros Preferidos</a></li>
+                <li class="dropdown"> <!--Indetifica que tem um menu-->
+                    <a href="#" class="data-toggle" data-toggle="dropdown">Projeto<span class="caret"></span></a> <!--ixebe conteudo escondido dentro do menu-->
+                    <ul class="dropdown-menu" id="list2"> <!--esconde a lista-->
+                         <li><a href="" onclick="alerta()">Java/MySQL</a></li>
+                        <li><a href="projetoHtml5.html">HTML5</a></li>
+                        <li><a href="projetoBootstrap.html">Bootstrap</a></li>
+                    </ul>   
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Digite o que você procura">
+                </div>
+                <input type="submit" value="Buscar" class="btn btn-default">
+            </form>
+        </div>  
+        </nav>
+    </header>
+
+    <section id="carousel-banner">
+        <div class="container-fluid"><!--coneiter-->
+            <div class="row"><!--linha-->
+                <div id="carousel" class="carousel slide" data-ride="carousel"> <!--o carrossel com seu atributo-->
+                    <div class="carousel-inner" role="listbox"><!--mostra que tenha uma lista de imagens para passar-->
+                        <div class="item active"><!--cada img é um item na lista--> 
+                        <img src="../imagens/banner111.jpg" alt="html" class="fullscreen"><!--ocupar tela inteira-->
+                        </div>
+                        <div class="item"><!--cada img é um item na lista-->
+                        <img src="../imagens/banner22.jpg" alt="html css bootstrap" class="fullscreen"><!--ocupar tela inteira-->
+                        </div>
+                        <div class="item"><!--cada img é um item na lista-->
+                        <img src="../imagens/banner4.jpg" alt="dev" class="fullscreen"><!--ocupar tela inteira-->
+                        </div>
+                        <div class="item"><!--cada img é um item na lista-->
+                        <img src="../imagens/banner11.jpg" alt="dev" class="fullscreen"><!--ocupar tela inteira-->
+                        </div>
+                    </div>
+                    <a href="#carousel" data-slide="prev" class="left carousel-control" ><span class="glyphicon glyphicon-chevron-left"></span></a>
+                        <a href="#carousel" data-slide="next" class="right carousel-control" ><span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </div>
+            </div>  
+        </section>    
+
+    <main>
+
+<article class="post-single">
+<div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="../imagens/html1.png" class="thumbnail img-responsive zoom" alt="gifProjetoHtml">
+                    </div>
+        <div class="col-sm-8">
+            <div class="text-center">
+                  <h1>MEU PRIMEIRO SITE EM HTML5</h1>
+                    <h3>JM VIAGENS</h3>
+                <a href="http://paulo25.github.io-jm" class="btn btn-primary btn-lg" title="Visitar site">Acessar</a><!--botão largo-->
+            </div>
+            <div class="row">
+            <ul class="nav nav-tabs"><!--cria abas-->
+                <li class="nav active"><a href="#descricao" data-toggle="tab">Descrição</a></li><!--se comportar com abas-->
+                <li class="nav"><a href="#Informacoes" data-toggle="tab">Informações tecnicas</a></li><!--se comportar com abas-->
+            </ul>
+            <div class="tab-content"> <!--posso colocar qual quer conteudo-->
+                <div class="tab-pane fade in active" id="descricao"> <!--um painel de uma abas ativado-->
+                    <p>Site desenvolvido em HTML5 puro durante uma maratona de programação básica.
+                Este site foi um exemplo para divulgar uma agencia de viagens com comercialização de passagens, passeios, viagens e excursões, em todas as modalidades de transporte.</p>
+                    
+                </div>
+                    <div class="tab-pane fade" id="Informacoes"><!--um painel de uma abas-->
+                    <table class="table table-reponsive"><!--Tabela estilizada e reponsiva-->
+                        <tbody><!--corpo da tabela-->
+                            <tr><!--linha da tabela-->
+                                <td><p>HTML5</p></td><!--colunas-->
+                                <td><p>Puro</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Total de telas</p></td>
+                                <td><p>três</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </article>
+          
+
+           <div class="col-sm-4">
+        <div class="post">
+        <form method="get" action="mailto:perfectcrime3@gmail.com"> <!--name="commentform" method="post" action="insertcomment.php"-->
+            <fieldset>
+                <legend> <h2>Deixe seu comentário</h2></legend>
+                <h4><span id="titulo">Campos obrigatórios estão marcados com *</span></h4>
+                <div class="form-group">
+                    <label for="Nome"><span id="form">NOME:</span></label>
+                    <input type="text" name="nome" class="form-control" placeholder="Nome *" />
+                </div>
+                <div class="form-group">
+                    <label for="Email"><span id="form">E-MAIL:</span></label>
+                    <div class="input-group">
+                        <span class="input-group-addon">@</span>
+                        <input type="email" name="email" class="form-control" placeholder="E-mail *" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Site"><span id="form">SITE (opcional):</span></label>
+                    <input type="text" name="site" class="form-control" placeholder="Website" />
+                </div>
+                <div class="form-group">
+                    <label for="Comentario"><span id="form">DEIXE SEU COMENTÁRIO:</span></label>
+                    <textarea name="comentario" rows="6" cols="60" class="form-control" placeholder="Comentário *"></textarea>
+                </div>
+                <div class="form-group">
+                <button type="submit" name="submit" class="btn btn-danger" ><span class="
+    glyphicon glyphicon-thumbs-up"></span> Publicar Comentário</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+
+<div class="col-sm-8">
+    <aside class="post">
+<p><span id="aviso">Obrigado por visitar meu site!! Se curtiu esse portfólio compartilha com seus amigos e deixa um comentário caso tenha alguma sugestão do que posso melhorar.</span></p>
+</div>
+</aside>
+    </main>
+
+
+
+<footer class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3 id="ropape-h3">Localidade</h3>
+                            <span id="rodape">Bahia
+                                <br>Salvador </span>
+                            </div>
+                            <div class="footer-col col-md-4">
+                                <h3 id="ropape-h3">Redes Sociais</h3>
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://github.com/paulo25" target="_blanck"><img src="../imagens/icon_git.png" title="GitHub"/></a>
+                                        <a href="https://www.facebook.com/profile.php?id=100007012876295" target="_blank"><img src="../imagens/icon_fac.png" title="Facebook"/></a>
+                                        <a href="https://plus.google.com/u/1/" target="_blank"><img src="../imagens/icon_g+.png" title="Gmail"></a>
+                                        <a href="" target="_blank"><img src="../imagens/icon_sky.png" title="Skype"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col col-sm-4">
+                                <h3 id="ropape-h3">ARQUIVO PDF</h3>
+                                <a href="../curriculo/curriculo-paulo.pdf" download="currículo-paulo.pdf" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-download"></span> Download Currículo</a></br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-below">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h5 id="rodape-h5">Todos os direitos reservados - 2018 &copy;</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+</body>
+</html>

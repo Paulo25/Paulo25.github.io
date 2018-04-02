@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+
+body{
+  font-family: arial, sans-serif; /*fonte sem serifa*/
+  background-image: url(../imagens/fundo1.jpg);
+  color:rgba(0,0,0,3);
+  } 
+p{
+  background: transparent;
+  font-weight: bold;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  margin-bottom: 4px;
+
+		}
+
+.header h3, .header h4{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  color: #f2fffc;
+  font-weight: bolder;
+}
+h5#titulo-h5{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-size: 11pt;
+  color: #e74c3c;
+  font-weight: bold;
+}
+.header{
+  background-image: url(../imagens/fundo2.jpg);
+  
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 3px solid #000000; 
+}
+.header img#foto{
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+.navbar-header button{
+      color: #fff;
+    }
+
+  
+/*menu principal
+li { 
+    border-right:1px solid #bbb;
+
+}
+li:last-child {
+    border-right: none;
+}*/
+/*section#carousel-banner{
+	position: relative;
+	display: block;
+	bottom: 21.5px;
+}*/
+
+
+h2,
+h4{
+  color: #ffffff;
+  font-weight: bold;
+}
+.container{
+  font-size: 1.5em;
+}
+
+
+#list2 a:hover { 
+    background-color: #ff0000;
+}
+
+/*rodapé*/
+
+
+footer{ /*área de baixo do site(rodapé)*/
+  clear: both;
+    background-color: rgba(146,119,199,0.4);
+    padding: 10px;
+    text-align: center; 
+}
+h4#rodape-h4{
+  text-align: center;
+  color: #000000;
+  font-weight: bolder;
+  font-family: Arial, sans-serif;
+}

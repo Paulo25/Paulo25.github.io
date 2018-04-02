@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>Portfólio/sobre</title>
+    <link rel="icon" href="imagens/img_title.png"/>
+    <link rel="stylesheet" href="cssB/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/cursos.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+</head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script language="javascript" src="js/funcoes.js" ></script>
+<body>
+<header>
+    <div class="header">
+        <hgroup>
+        <h3>PAULO VITOR CARVALHO SANTOS</h3>
+        <h4>@paulosantos</h4>
+        </hgroup>
+        <img id="foto"  src="imagens/vitor.jpg" alt="fotoVitor" />
+    </div>
+    <h5 id="titulo-h5">Salvador,Bahia,Brasil</h5>
+    
+
+        <nav class="navbar navbar-inverse"> <!--inverte a cor para preto-->
+            <div class="navbar-header">
+        <a href="index.html" class="navbar-brand">PORTFÓLIO</a> <!--classe de marca do site-->
+        <button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse">Menu</button> <!--ixibe algo escondi-->
+        </div>
+        <div class="collapse navbar-collapse"> <!--collapse esconde elementos-->
+            <ul class="nav navbar-nav"> <!--coloca os elementos em lista-->
+                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="livros.html">Livros Preferidos</a></li>
+                <li class="dropdown"> <!--Indetifica que tem um menu-->
+                    <a href="#" class="data-toggle" data-toggle="dropdown">Projeto<span class="caret"></span></a> <!--ixebe conteudo escondido dentro do menu-->
+                    <ul class="dropdown-menu" id="list2"> <!--esconde a lista-->
+                        <li><a href="" onclick="alerta()">Java/MySQL</a></li>
+                        <li><a href="projeto/projetoHtml5.html">HTML5</a></li>
+                        <li><a href="projeto/Bootstrap.html">Bootstrap</a></li>
+                    </ul>   
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Digite o que você procura">
+                </div>
+                <input type="submit" value="Buscar" class="btn btn-default">
+            </form>
+        </div>  
+        </nav>
+    </header>
+
+<main>
+   
+    
+    <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>CURSOS</h2>
+                        <hr class="star-primary">
+                        <h4>Conhecimento e domínios</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul class="list list-group">
+                        <li class="list-group-item"><label><h3>PROAJ</h3></label>
+                            <ul class="list-group-item-text">
+                                <p><span class="devicon-windows8-original"></span> Informática rápida e Pacote Office <span class="badge">72h</span></p>
+                                <p><span class="glyphicon glyphicon-wrench"></span> Redes de Computadores <span class="badge">96h</span></p>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><label><h3>Alura</h3></label>
+                            <ul class="list-group-item-text">
+                                <p><span class="devicon-bootstrap-plain"></span> Bootstrap <span class="badge">12h</span></p>
+                                <p><span class="devicon-javascript-plain"></span> AngularJs - Programando na linguagem web <span class="badge">20h</span></p>
+                                <p><span class="devicon-javascript-plain"></span> JavaScript - Avançando com uma WebApp <span class="badge">Em andamento</span></p>
+                                <p><span class="devicon-html5-plain"></span> Curso HTML5 e CSS - Básico ao Avançado <span class="badge">Em andamento</span></p>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><label><h3>Udemy</h3></label>
+                            <ul class="list-group-item-text">
+                                <p><span class="devicon-html5-plain"></span> Curso Completo de Desenvolvimento Web <span class="badge">Em andamento</span></p>
+                                <p><span class="devicon-android-plain"></span> Curso de Desenvolvimento Android <span class="badge">Em andamento</span></p>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><label><h3>B7 Web</h3></label>
+                            <ul class="list-group-item-text">
+                                <p><span class="devicon-php-plain"></span> PHP - Do Zero ao Profissional <span class="badge">Em andamento</span></p>
+                                <p></p>
+                                <p></p>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+ 
+</main>
+
+
+
+  <footer class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3>Localidade</h3>
+                            <p><span id="rodape">Bahia
+                                <br>Salvador </span></p>
+                            </div>
+                            <div class="footer-col col-md-4">
+                                <h3>Redes Sociais</h3>
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://github.com/paulo25" target="_blanck"><img src="imagens/icon_git.png" title="GitHub"/></a>
+    <a href="https://www.facebook.com/profile.php?id=100007012876295" target="_blank"><img src="imagens/icon_fac.png" title="Facebook"/></a>
+    <a href="https://plus.google.com/u/1/" target="_blank"><img src="imagens/icon_g+.png" title="Gmail"></a>
+    <a href="" target="_blank"><img src="imagens/icon_sky.png" title="Skype"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col col-sm-4">
+                                <h3>ARQUIVO PDF</h3>
+                                <a href="curriculo/curriculo-paulo.pdf" download="currículo-paulo.pdf" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-download"></span> Download Currículo</a></br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-below">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h5>Todos os direitos reservados - 2018 &copy;</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+</body>
+
+</html>
